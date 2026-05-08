@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Walter Motos</title>
+    <link rel="shortcut icon" href="./images/herramienta.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header class="ancho">
+        <h1>Walter Motos</h1>
+        <h2>Tus repuestos en un solo lugar</h2>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#about">Acerca de Walter Motos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <a href="./pages/carrito.html" class="icono-carrito">🛒 <span id="contador-carrito">0</span></a>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección 1 -->
+        <section id="home" class="ancho">
+            <h2>Inicio</h2>
+            <p>Bienvenido a la página de Walter Motos</p>
+        </section>
+
+        <!-- Sección 2 - PRODUCTOS -->
+        <section id="productos" class="ancho">
+            <h2 class="titulo">Productos</h2>
+            <article class="producto">
+                <h3>ABRAZADERA CHAPA FILTRO AIRE NSU</h3>
+                <img src="./images/productos/ABRAZADERA CHAPA FILTRO AIRE NSU.webp">
+                <p>Marca NSU para Moto</p>
+                <p class="precio">$ 9.781,24</p>
+                <button onclick="agregarAlcarrito('ABRAZADERA CHAPA FILTRO AIRE NSU', 9781.24)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>ACEITE MOTO 2T X 1/2LT SEMISINTETICO YAMALUBE</h3>
+                <img src="./images/productos/ACEITE MOTO 2T X 12LT SEMISINTETICO YAMALUBE.jpg">
+                <p>Aceite de 1Lt</p>
+                <p class="precio">$ 807,4</p>
+                <button onclick="agregarAlcarrito('ACEITE MOTO 2T X 1/2LT SEMISINTETICO YAMALUBE', 807,4)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>AMORT. MONOSHOCK CORVEN TRIAX 150/200/250 FAR</h3>
+                <img src="./images/productos/AMORT. MONOSHOCK CORVEN TRIAX 150 200 250 FAR.webp">
+                <p>Marca FAR en posición trasera</p>
+                <p class="precio">$ 87.945,56</p>
+                <button onclick="agregarAlcarrito('AMORT. MONOSHOCK CORVEN TRIAX 150/200/250 FAR', 87945.56)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>ADAPTADOR FAROL GIRO UNIV.YAMAHA FZ16 x4JGOS. VC</h3>
+                <img src="./images/productos/ADAPTADOR FAROL GIRO UNIV.YAMAHA FZ16 x4JGOS. VC.jpg">
+                <p>Con giro universales para Yamaha FZ 16</p>
+                <p class="precio">$ 1463,9</p>
+                <button onclick="agregarAlcarrito('ADAPTADOR FAROL GIRO UNIV.YAMAHA FZ16 x4JGOS. VC', 1463.9)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>AEROSOL FOAM FILTRO x220CC BMB</h3>
+                <img src="./images/productos/AEROSOL FOAM FILTRO x220CC BMB.jpg">
+                <p>Número de pieza BMB022</p>
+                <p class="precio">$ 5230,57</p>
+                <button onclick="agregarAlcarrito('AEROSOL FOAM FILTRO x220CC BMB',  5230.57)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>ARANDELA DE GOMA 5MM x100unid.</h3>
+                <img src="./images/productos/ARANDELA DE GOMA 5MM x100unid. ..webp">
+                <p>Marca VML</p>
+                <p class="precio">$ 4387,72</p>
+                <button onclick="agregarAlcarrito('ARANDELA DE GOMA 5MM x100unid.',4387.72)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>ARBOL DE LEVAS HONDA CG 150 (3 PZS) KIT NSU</h3>
+                <img src="./images/productos/ARBOL DE LEVAS HONDA CG 150 (3 PZS) KIT NSU.webp">
+                <p>Marca NSU Origen China</p>
+                <p class="precio">$ 23,600 </p>
+                <button onclick="agregarAlcarrito('ARBOL DE LEVAS HONDA CG 150 (3 PZS) KIT NSU', 23.600)" >Agregar</button>
+            </article>
+            <article class="producto">
+                <h3>ARO GILERA FUTURA 4T DIAM.52,50 0.25 YAMASIDA/KIM</h3>
+                <img src="./images/productos/ARO GILERA FUTURA 4T DIAM.52,50 0.25 YAMASIDA-KIM.webp">
+                <p>Marca Repcor | Número de pieza COR558</p>
+                <p class="precio">$ 9098,91</p>
+                <button onclick="agregarAlcarrito('ARO GILERA FUTURA 4T DIAM.52,50 0.25 YAMASIDA/KIM',9098.91)" >Agregar</button>
+            </article>
+        </section>
+
+        <!-- Sección 3 -->
+        <section id="about" class="ancho">
+            <h2>Acerca de Walter Motos</h2>
+            <p>Somos distribuidores oficiales de repuestos de motos</p>
+        </section>
+
+        <!-- Sección 4 -->
+        <section id="contact" class="ancho">
+            <a class="vinculo-black" href="./pages/contacto.html">
+                <h2>Contacto</h2>
+            </a>
+            <p>Si tienes alguna consulta no dudes en contactarnos.</p>
+
+            <a class="vinculo-black" href="./pages/contacto.html">
+                <button>Llene un formulario</button>
+            </a>
+
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="contactos">
+            <h2>Puedes encontrarnos en:</h2>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016888186322!2d-58.384145323530866!3d-34.603734457500295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1731683164229!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p>&copy; Walter Motos - 2024. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
