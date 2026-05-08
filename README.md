@@ -1,4 +1,14 @@
-# PROYECTO FINAL - TALENTO TECH
+## Tienda E-commerce de Motos - Proyecto Final Front End
+
+Un sitio de comercio electrónico especializado en repuestos y accesorios para motocicletas (marcas como Honda, Yamaha y Corven). Desarrollado con un enfoque en la experiencia de usuario y un diseño robusto para el catálogo de productos.
+
+Tecnologías utilizadas:
+
+## HTML5 & CSS3: Maquetación semántica y diseño personalizado (Carpeta /style).
+
+JavaScript: Lógica para el carrito de compras y dinamismo en la navegación (Archivos index.js y pages/carrito.js).
+
+Responsive Design: Adaptado para que los usuarios puedan buscar repuestos desde el celular en el taller o desde la PC.# PROYECTO FINAL - TALENTO TECH
 
 ## Propósito
 
